@@ -1,0 +1,13 @@
+#+title: EPUB Boilerplate
+#+author: Zoltán Király
+#+date: [2022-09-11 Sun 14:04]
+
+This repository contains a basic file structure that can be used to create EPUB-formatted books. The structure is based on the ideas found in Guido Henkel's book /Zen of eBook Formatting./
+
+Assuming that you already have the ~zip~ utility installed on your machine, download this folder, change directory to it, then issue the following command in the terminal:
+
+#+begin_src shell
+  $ zip -rX ../my.epub mimetype META-INF/ OEBPS/
+#+end_src
+
+*Work in progress.*
