@@ -13,6 +13,7 @@
     <item id="CharisSIL-Compact-Bold" href="fonts/CharisSIL-Compact-Bold.ttf" media-type="application/x-font-ttf"/>
     <item id="css" href="css/style.css" media-type="text/css"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="nav" href="book/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item id="photo" href="images/photo.jpg" media-type="image/jpeg"/>

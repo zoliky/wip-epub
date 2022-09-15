@@ -20,6 +20,7 @@ html {
 
 p {
   text-indent: 1.5em;
+  margin: 8pt 0 0;
 }
 
 p.chapter {
@@ -37,6 +38,12 @@ p.headlinfe {
   text-indent: 1.5em;
   font-weight: bold;
   margin-top: 1.5em;
+}
+
+/* Chapter Image Replacement Hack */
+p.hidden {
+  display: none;
+  visibility: hidden;
 }
 
 /* Center text */
