@@ -10,6 +10,10 @@
   src:("../fonts/CharisSIL-Compact-Bold.ttf")
 }
 
+html {
+  box-sizing: border-box;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -17,35 +21,6 @@
 p {
   text-indent: 1.5em;
 }
-
-p.title {
-  font-size: 2em;
-  font-weight: bold;
-  margin-top: 3em;
-}
-
-p.headline {
-  text-indent: 1.5em;
-  font-weight: bold;
-  text-size: 1.5em;
-}
-
-/* Scenebreak */
-/* <p class="scenebreak"><span class="scenebreak">***</span></p> */
-
-p.scenebreak {
-  text-align: center;
-  text-indent: 0;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-span.scenebreak {
-  text-align: center;
-  text-indent: 0;
-}
-
-/* Chapters */
 
 p.chapter {
   text-align: center;
@@ -55,4 +30,51 @@ p.chapter {
   margin-top: 3em;
   margin-bottom: 1.5em;
   page-break-before: always;
+}
+
+p.headlinfe {
+  text-size: 1.5em;
+  text-indent: 1.5em;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+
+/* Center text */
+p.centered {
+  text-align: center;
+  text-indent: 0em;
+}
+
+span.centered {
+  text-align: center;
+  text-indent: 0em;
+}
+
+
+/* Center text - Scenebreak */
+p.scenebreak {
+  text-align: center;
+  text-indent: 0em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+span.scenebreak {
+  text-align: center;
+  text-indent: 0;
+}
+
+/* Images */
+img.vignette {
+  height: 10em;
+}
+
+/* Initials */
+p.first {
+  text-indent: 0em;
+}
+
+span.cap {
+  font-size: 3em;
+  line-height: 0em;
 }

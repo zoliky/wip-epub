@@ -2,20 +2,20 @@
 <package version="3.0" unique-identifier="pub-id" xmlns="http://www.idpf.org/2007/opf">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="pub-id">urn:uuid:aa725b41-8e5e-44cc-bdf3-b0143bd3f20e</dc:identifier>
-    <dc:language>en-US</dc:language>
     <dc:title>Title</dc:title>
+    <dc:language>en-US</dc:language>
     <dc:creator>Zoltan Kiraly</dc:creator>
     <meta name="cover" content="cover-image"/>
     <meta property="dcterms:modified">2022-04-01T12:00:00Z</meta>
   </metadata>
   <manifest>
-    <item id="CharisSIL-Regular" href="fonts/CharisSIL-Regular.ttf" media-type="application/x-font-ttf"/>
-    <item id="CharisSIL-Bold" href="fonts/CharisSIL-Bold.ttf" media-type="application/x-font-ttf"/>
+    <item id="CharisSIL-Compact-Regular" href="fonts/CharisSIL-Compact-Regular.ttf" media-type="application/x-font-ttf"/>
+    <item id="CharisSIL-Compact-Bold" href="fonts/CharisSIL-Compact-Bold.ttf" media-type="application/x-font-ttf"/>
     <item id="css" href="css/style.css" media-type="text/css"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
-    <item id="nav" href="book/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="photo" href="images/photo.jpg" media-type="image/jpeg"/>
     <item id="ch01" href="book/ch01.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">

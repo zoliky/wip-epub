@@ -21,12 +21,6 @@
         <text>Chapter 1</text>
       </navLabel>
       <content src="book/ch01.xhtml"></content>
-      <navPoint class="chapter" id="num_3" playOrder="3">
-        <navLabel>
-          <text>Chapter 1 - Section 1</text>
-        </navLabel>
-        <content src="book/ch01.xhtml"/>
-      </navPoint>
     </navPoint>
   </navMap>
 </ncx>
