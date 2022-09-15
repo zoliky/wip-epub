@@ -12,7 +12,7 @@ This repository contains a basic file structure that can be used to create EPUB-
 
 ** Generating the EPUB file
 
-Assuming that you already have the ~zip~ utility installed on your machine, download this folder, change directory to it, then issue the following command in the terminal:
+Assuming that you have the ~zip~ utility installed on your machine, download this repository, change directory to it, then issue the following command in the terminal:
 
 #+begin_src shell
   $ zip -rX ../my.epub mimetype META-INF/ OEBPS/
