@@ -6,8 +6,11 @@
 
 This repository contains a basic file structure that can be used to create EPUB-formatted books. The structure is based on the ideas found in Guido Henkel's book /Zen of eBook Formatting./
 
+*This repository is work in progress.*
+
 [[./static/epub.jpg]]
 
+** Generating the EPUB file
 
 Assuming that you already have the ~zip~ utility installed on your machine, download this folder, change directory to it, then issue the following command in the terminal:
 
@@ -15,4 +18,3 @@ Assuming that you already have the ~zip~ utility installed on your machine, down
   $ zip -rX ../my.epub mimetype META-INF/ OEBPS/
 #+end_src
 
-*Work in progress.*
