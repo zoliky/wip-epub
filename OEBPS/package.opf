@@ -5,6 +5,7 @@
     <dc:title>Title</dc:title>
     <dc:language>en-US</dc:language>
     <dc:creator>Zoltan Kiraly</dc:creator>
+    <dc:date>2022-09-16T12:00:00Z</dc:date>
     <meta name="cover" content="cover-image"/>
     <meta property="dcterms:modified">2022-04-01T12:00:00Z</meta>
   </metadata>
@@ -16,11 +17,15 @@
     <item id="nav" href="book/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="chapterphoto" href="images/chapter.png" media-type="image/png"/>
     <item id="photo" href="images/photo.jpg" media-type="image/jpeg"/>
+    <item id="titlepage" href="book/titlepage.xhtml" media-type="application/xhtml+xml"/>
     <item id="ch01" href="book/ch01.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="cover"/>
+    <itemref idref="titlepage"/>
+    <itemref idref="nav"/>
     <itemref idref="ch01"/>
   </spine>
 </package>

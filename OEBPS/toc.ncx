@@ -18,6 +18,12 @@
     </navPoint>
     <navPoint class="chapter" id="num_2" playOrder="2">
       <navLabel>
+        <text>Title Page</text>
+      </navLabel>
+      <content src="book/titlepage.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_3" playOrder="3">
+      <navLabel>
         <text>Chapter 1</text>
       </navLabel>
       <content src="book/ch01.xhtml"></content>
