@@ -16,6 +16,21 @@ html {
   box-sizing: border-box;
 }
 
+/* Reset */
+
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 2em;
+}
+
+/* END Reset */
+
+h2 {
+  text-align: center;
+}
+
 p {
   text-indent: 1.5em;
   margin: 0.2em 0 0;
@@ -26,12 +41,13 @@ p.chapter {
   text-indent: 0em;
   font-size: 2em;
   font-weight: bold;
-  margin-top: 3em;
+  /*margin-top: 3em;*/
+  margin-top: 1em;
   margin-bottom: 1.5em;
   page-break-before: always;
 }
 
-p.headlinfe {
+p.headline {
   text-size: 1.5em;
   text-indent: 1.5em;
   font-weight: bold;
